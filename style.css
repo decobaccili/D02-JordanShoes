@@ -98,7 +98,6 @@ body{
   justify-content: center;
   align-items: center;
   margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .shoes__box{
@@ -138,6 +137,40 @@ body{
 
 @media screen and (min-width:1400px){
   body{
-    width: 1440px;
+    width: 100%;
   }
+
+  .title__name{
+    display: flex;
+    align-items: center;
+    margin: 7px auto;
+    width: 15%;
+  }
+
+  .banner__img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1519.5px;
+    height: 377px;
+  }
+
+  .banner__title{
+    color:#f9f9f9;
+    margin: 129px 940px 0px 100px;
+  }
+  
+  .banner__desc{
+    color: #f9f9f9;
+    margin: 30px 940px 0px 100px;
+  }
+
+  #shoes{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .footer{
+    width: 100%;
+  }
+
 }
