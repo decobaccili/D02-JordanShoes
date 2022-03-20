@@ -156,7 +156,7 @@ body{
 
   .banner__title{
     color:#f9f9f9;
-    margin: 129px 940px 0px 100px;
+    margin: 0px 940px 0px 100px;
   }
   
   .banner__desc{
@@ -171,6 +171,6 @@ body{
 
   .footer{
     width: 100%;
+    justify-content: center;
   }
-
 }
